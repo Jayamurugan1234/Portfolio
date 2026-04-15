@@ -1,0 +1,565 @@
+@media (min-width:1441px) {
+
+    .resume {
+        padding: 50px 20px;
+    }
+
+
+    .resume-title {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .resume-intro {
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.3;
+    }
+
+
+    .timeline {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    
+
+
+    
+
+
+    .timeline-item {
+        
+        position: relative;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+
+
+    .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 0;
+        width: 2px;
+        height: 100%;
+        background-color: #26b39a;
+    }
+
+
+    .timeline-item::after {
+        content: "";
+        position: absolute;
+        left: 9px;
+        top: 0;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 2px solid #26b39a;
+
+        background-color: #fff;
+
+
+    }
+
+    .timeline-item h2 {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .timeline-item h3 {
+        margin-left: 20px;
+    }
+
+    .timeline-item p {
+        margin-left: 20px;
+        line-height: 1.5;
+    }
+
+    .timeline-item ul {
+        padding-left: 20px;
+        margin-left: 20px;
+        line-height: 1.5;
+
+    }
+
+
+    
+
+
+    .download-btn {
+        display: block;
+        padding: 15px 25px;
+
+        background: #26b39a;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        color: black;
+        text-align: center;
+        text-decoration: none !important;
+        width: 8%;
+        height: 35px;
+        margin-top: 10px;
+
+    }
+
+    .download-btn:hover {
+        background: #14977f;
+        color: white;
+
+    }
+
+
+    .top-btn {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 565px;
+        background-color: #2ecc71;
+        border: none;
+        border-radius: 10%;
+
+        cursor: pointer;
+        font-size: 13px;
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .top-btn:hover {
+        background-color: rgb(40, 185, 105);
+
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:769px) and (max-width:1440px) {
+
+    .resume {
+        padding: 50px 20px;
+    }
+
+
+    .resume-title {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .resume-intro {
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.3;
+    }
+
+
+    .timeline {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    
+
+
+    
+
+
+    .timeline-item {
+        
+        position: relative;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+
+
+    .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 0;
+        width: 2px;
+        height: 100%;
+        background-color: #26b39a;
+    }
+
+
+    .timeline-item::after {
+        content: "";
+        position: absolute;
+        left: 9px;
+        top: 0;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 2px solid #26b39a;
+
+        background-color: #fff;
+
+
+    }
+
+    .timeline-item h2 {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .timeline-item h3 {
+        margin-left: 20px;
+    }
+
+    .timeline-item p {
+        margin-left: 20px;
+        line-height: 1.5;
+    }
+
+    .timeline-item ul {
+        padding-left: 20px;
+        margin-left: 20px;
+        line-height: 1.5;
+
+    }
+
+
+    
+
+    .download-btn {
+        display: block;
+        padding: 5px 20px;
+
+        background: #26b39a;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        color: black;
+        text-align: center;
+        text-decoration: none !important;
+        width: 8%;
+        height: 35px;
+
+    }
+
+    .download-btn:hover {
+        background: #14977f;
+        color: white;
+
+    }
+
+
+    .top-btn {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 565px;
+        background-color: #2ecc71;
+        border: none;
+        border-radius: 10%;
+
+        cursor: pointer;
+        font-size: 13px;
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .top-btn:hover {
+        background-color: rgb(40, 185, 105);
+
+        color: white;
+    }
+}
+
+
+
+@media (min-width:601px) and (max-width:768px) {
+
+    .resume {
+        padding: 50px 20px;
+    }
+
+
+    .resume-title {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .resume-intro {
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.3;
+    }
+
+
+    .timeline {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+
+    
+
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+
+
+    .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 0;
+        width: 2px;
+        height: 100%;
+        background-color: #26b39a;
+    }
+
+
+    .timeline-item::after {
+        content: "";
+        position: absolute;
+        left: 9px;
+        top: 0;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 2px solid #26b39a;
+
+        background-color: #fff;
+
+
+    }
+
+    .timeline-item h2 {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .timeline-item h3 {
+        margin-left: 20px;
+    }
+
+    .timeline-item p {
+        margin-left: 20px;
+        line-height: 1.5;
+    }
+
+    .timeline-item ul {
+        padding-left: 20px;
+        margin-left: 20px;
+        line-height: 1.5;
+
+    }
+
+
+    
+
+
+    .download-btn {
+        display: block;
+
+        padding: 10px 25px;
+
+        background: #26b39a;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        color: black;
+        text-align: center;
+        text-decoration: none !important;
+        width: 30%;
+        height: 45px;
+
+    }
+
+    .download-btn:hover {
+        background: #14977f;
+        color: white;
+
+    }
+
+
+    .top-btn {
+        display: none;
+        position: absolute;
+        margin-top: 0px;
+
+        background-color: #2ecc71;
+        border: none;
+        border-radius: 10%;
+
+        cursor: pointer;
+        font-size: 13px;
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .top-btn:hover {
+        background-color: rgb(40, 185, 105);
+
+        color: white;
+    }
+}
+
+
+@media (min-width:320px) {
+
+    .resume {
+        padding: 50px 20px;
+    }
+
+
+    .resume-title {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .resume-intro {
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.3;
+    }
+
+
+    .timeline-column {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* justify-content: space-between; */
+        position: relative;
+        width: 100%;
+    }
+
+
+
+
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 40px;
+        /* padding-left: 20px; */
+    }
+
+
+    .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: 8px;
+        top: -10;
+        width: 2px;
+        height: 100%;
+        background-color: #26b39a;
+    }
+
+
+    .timeline-item::after {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: -13px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 2px solid #26b39a;
+
+        background-color: #fff;
+
+
+    }
+
+    .timeline-item h2 {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .timeline-item h3 {
+        margin-left: 20px;
+    }
+    
+
+    .timeline-item p {
+        margin-left: 20px;
+        line-height: 1.5;
+        width: 85%;
+        
+    }
+
+    .timeline-item ul {
+        padding-left: 20px;
+        margin-left: 20px;
+        line-height: 1.5;
+        width: 80%;
+
+
+    }
+
+
+  
+
+
+    .download-btn {
+        display: block;
+
+        padding: 10px 25px;
+
+        background: #26b39a;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        color: black;
+        text-align: center;
+        justify-self: center;
+        text-decoration: none !important;
+        width: 25%;
+        height: 35px;
+
+    }
+
+    .download-btn:hover {
+        background: #14977f;
+        color: white;
+
+    }
+
+
+    .top-btn {
+        display: none;
+        position: absolute;
+        margin-top: 0px;
+
+        background-color: #2ecc71;
+        border: none;
+        border-radius: 10%;
+
+        cursor: pointer;
+        font-size: 13px;
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .top-btn:hover {
+        background-color: rgb(40, 185, 105);
+
+        color: white;
+    }
+
+
+
+
+}
+
+

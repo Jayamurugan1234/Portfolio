@@ -1,0 +1,393 @@
+@media (min-width:1441px)  {
+
+
+    .home {
+        height: 100vh;
+        width: 100%;
+
+        background-image: url("/bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        pointer-events: none;
+
+    }
+
+    .home-container {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+
+    .home-text {
+        animation: fadeSlide 1.2s ease forwards;
+    }
+
+
+
+    .home-text h2 {
+        color: black;
+        margin-top: -110px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+
+    .home-text h2:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
+    .home-text p {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 70px;
+
+    }
+
+    .home-explain {
+        margin-top: 30px;
+        color: black;
+        font-size: 18px;
+        line-height: 1.5;
+        font-style: italic;
+        width: 600px;
+        margin-left: 950px;
+        animation: fadeSlide 2s ease forwards;
+    }
+
+    .about-btn {
+        margin-top: 10px;
+        background-color: rgb(40, 185, 105);
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 30px;
+
+    }
+
+
+    .about-btn:hover {
+        background-color: rgb(40, 185, 105);
+
+        color: white;
+    }
+
+
+    
+
+}
+
+
+
+
+
+
+
+@media (min-width:769px) and (max-width:1440px) {
+
+
+    .home {
+        height: 100vh;
+        width: 100%;
+
+        background-image: url("/bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        pointer-events: none;
+
+    }
+
+    .home-container {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+
+    .home-text {
+        animation: fadeSlide 1.2s ease forwards;
+    }
+
+
+
+    .home-text h2 {
+        color: black;
+        margin-top: -110px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+
+    .home-text h2:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
+    .home-text p {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 70px;
+
+    }
+
+    .home-explain {
+        margin-top: 30px;
+        color: black;
+        font-size: 18px;
+        line-height: 1.5;
+        font-style: italic;
+        width: 600px;
+        margin-left: 350px;
+        animation: fadeSlide 2s ease forwards;
+    }
+
+    .about-btn {
+        margin-top: 10px;
+        background-color: rgb(40, 185, 105);
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 30px;
+
+    }
+
+
+    .about-btn:hover {
+        background-color: rgb(40, 185, 105);
+
+        color: white;
+    }
+
+
+    
+
+}
+
+
+@media (min-width:601px) and (max-width:768px){
+    .home {
+        height: 100vh;
+        width: 100%;
+
+        background-image: url("/bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        pointer-events: none;
+
+    }
+
+    .home-container {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+
+    .home-text {
+        animation: fadeSlide 1.2s ease forwards;
+    }
+
+
+
+    .home-text h2 {
+        color: black;
+        margin-top: -110px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+
+    .home-text h2:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
+    .home-text p {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 70px;
+
+    }
+
+    .home-explain {
+        margin-top: 30px;
+        color: black;
+        font-size: 18px;
+        line-height: 1.5;
+        font-style: italic;
+        width: 600px;
+        margin-left: 130px;
+        animation: fadeSlide 2s ease forwards;
+    }
+
+    .about-btn {
+        margin-top: 10px;
+        background-color: rgb(40, 185, 105);
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 30px;
+
+    }
+
+
+    .about-btn:hover {
+        background-color: rgb(40, 185, 105);
+
+        color: white;
+    }
+
+}
+
+
+@media  (max-width:600px){
+    .home {
+        height: 100vh;
+        width: 100%;
+
+        background-image: url("/bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        pointer-events: none;
+
+    }
+
+    .home-container {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+
+    .home-text {
+        animation: fadeSlide 1.2s ease forwards;
+    }
+
+
+
+    .home-text h2 {
+        color: black;
+        margin-top: 0px;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+
+    .home-text h2:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
+    .home-text p {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 0px;
+
+    }
+
+    .home-explain {
+        margin-top: 30px;
+        color: black;
+        font-size: 18px;
+        line-height: 1.5;
+        font-style: italic;
+        width: 230px;
+        margin-left: 50px;
+        animation: fadeSlide 2s ease forwards;
+    }
+
+    .about-btn {
+        margin-top: 10px;
+        background-color: rgb(40, 185, 105);
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 5px;
+
+    }
+
+
+    .about-btn:hover {
+        background-color: rgb(40, 185, 105);
+
+        color: white;
+    }
+
+}
