@@ -77,7 +77,7 @@ function Contact() {
           <p>9360959559 (India +91)</p>
 
           <h3>Email Us:</h3>
-          <p>jayamuruganvenkatachalam27@gmail.com</p>
+          <p contact-info-email>jayamuruganvenkatachalam27@gmail.com</p>
 
           <h3>Address:</h3>
           <p>India, Tamilnadu, Erode</p>
