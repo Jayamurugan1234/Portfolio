@@ -8,13 +8,13 @@ function Footer() {
       <h2>Follow me in</h2>
 
       <div className="footer-icons">
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/jayamurugan__03?utm_source=qr&igsh=MWFlN20wd2dyZjkw" target="self" rel="noreferrer">
           <FaInstagram />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/jayamurugan-v-7a3571269/" target="self"  rel="noreferrer">
           <FaLinkedin />
         </a>
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/Jayamurugan1234" target="self" rel="noreferrer">
           <FaGithub />
         </a>
       </div>

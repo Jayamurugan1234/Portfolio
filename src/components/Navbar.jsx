@@ -43,9 +43,9 @@ function Navbar() {
 
       
       <div className="social-icons">
-        <a href="#"><FaLinkedin /></a>
-        <a href="#"><FaGithub /></a>
-        <a href="#"><FaInstagram /></a>
+        <a href="https://www.linkedin.com/in/jayamurugan-v-7a3571269/" target="self"><FaLinkedin /></a>
+        <a href="https://github.com/Jayamurugan1234" target="self"><FaGithub /></a>
+        <a href="https://www.instagram.com/jayamurugan__03?utm_source=qr&igsh=MWFlN20wd2dyZjkw" target="self"><FaInstagram /></a>
       </div>
 
     </nav>

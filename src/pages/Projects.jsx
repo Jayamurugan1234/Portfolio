@@ -19,8 +19,8 @@ function Projects() {
       title: "Petal Palace",
       desc: "Petal Palace is a beautifully designed floral e-commerce website that offers a wide variety of fresh flowers, bouquets for every occasion. It provides a smooth and user-friendly experience and category-based selection.",
       img: "/petal_1.png",
-      code: "https://github.com/your-link",
-      live: "https://your-netlify-link"
+      code: "https://github.com/Jayamurugan1234/Flower-Boutique",
+      live: "https://the-petal-palacee.netlify.app/"
     },
     {
       title: "Contact Manager",
@@ -30,11 +30,11 @@ function Projects() {
       live: "https://contact-manager-alpha-seven.vercel.app/dashboard"
     },
     {
-      title: "Quiz App",
+      title: "Programming-Quizzz",
       desc: "The project is built using HTML, CSS, and JavaScript, focusing on dynamic content handling, event-driven programming, and an engaging user experience. It helps users learn and evaluate their understanding in a fun and interactive way.",
       img: "/quiz_1.png",
-      code: "https://github.com/your-link",
-      live: "https://your-netlify-link"
+      code: "https://github.com/Jayamurugan1234/Programming-Quizz",
+      live: "https://programming-quizzzz.netlify.app/"
     },
 
      {
