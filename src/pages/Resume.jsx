@@ -32,7 +32,6 @@ function Resume() {
               <li> 9360959559</li>
               <li> jayamuruganvenkatachalam27@gmail.com</li>
               <li> Erode, India</li>
-              <li> github.com/Jayamurugan1234</li>
               <li> www.linkedin.com/in/jayamurugan-v-7a3571269</li>
               <li> https://github.com/Jayamurugan1234</li>
             </ul>
