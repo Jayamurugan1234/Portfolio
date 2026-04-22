@@ -27,7 +27,7 @@ function Projects() {
       desc: "Contact Manager is a user-friendly web application designed to store and manage personal or professional contact details efficiently using React and Firebase. The application allows users to add, view, update, and delete contact information such as names, phone numbers, email addresses.",
       img: "/contact_2.png",
       code: "https://github.com/Jayamurugan1234/Contact-Page",
-      live: "https://contact-manager-alpha-seven.vercel.app/dashboard"
+      live: "https://google-contact-project.netlify.app/dashboard"
     },
     {
       title: "Programming-Quizzz",
