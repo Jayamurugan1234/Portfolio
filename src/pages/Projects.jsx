@@ -10,14 +10,14 @@ function Projects() {
   const projectData = [
     {
       title: "Dressora",
-      desc: "Dressora is a responsive clothing website that offers a seamless shopping experience with modern UI, smooth navigation, product listings, image galleries, and interactive features across all devices.",
+      desc: "Dressora is a responsive clothing website that offers a seamless shopping experience with modern UI, smooth navigation, product listings, image galleries, and interactive features across all devices. Email:jai@gmail.com, Password: 123456",
       img: "/dressora_1.png",
       code: "https://github.com/Jayamurugan1234/E-commerce",
       live: "https://e-commerce-nine-jet-67.vercel.app"
     },
     {
       title: "Petal Palace",
-      desc: "Petal Palace is a beautifully designed floral e-commerce website that offers a wide variety of fresh flowers, bouquets for every occasion. It provides a smooth and user-friendly experience and category-based selection.",
+      desc: "Petal Palace is a beautifully designed floral e-commerce website that offers a wide variety of fresh flowers, bouquets for every occasion. It provides a smooth and user-friendly experience and category-based selection. Email:jai@gmail.com, Password: 123456",
       img: "/petal_1.png",
       code: "https://github.com/Jayamurugan1234/Flower-Boutique",
       live: "https://the-petal-palacee.netlify.app/"
