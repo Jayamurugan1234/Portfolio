@@ -93,83 +93,7 @@ function About() {
           <div className="skills-container" ref={skillsRef}>
 
 
-            {/* <div className="skills-column">
-
-              <div className="skill">
-                <div className="skill-header">
-                  <span>HTML</span>
-                  <span>100%</span>
-                </div>
-                <div className="progress">
-                  <div className={`progress-bar ${visible ? "html" : ""}`}></div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <div className="skill-header">
-                  <span>CSS</span>
-                  <span>90%</span>
-                </div>
-                <div className="progress">
-                  <div className={`progress-bar ${visible ? "css" : ""}`}></div>
-                </div>
-              </div>
-
-            </div>
-
-
-            <div className="skills-column">
-
-              <div className="skill">
-                <div className="skill-header">
-                  <span>Bootstrap</span>
-                  <span>80%</span>
-                </div>
-                <div className="progress">
-                  <div className={`progress-bar ${visible ? "bootstrap" : ""}`}></div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <div className="skill-header">
-                  <span>JavaScript</span>
-                  <span>85%</span>
-                </div>
-                <div className="progress">
-                  <div className={`progress-bar ${visible ? "js" : ""}`}></div>
-                </div>
-              </div>
-
-
-
-
-            </div>
-
-
-            <div className="skills-column">
-              <div className="skill">
-                <div className="skill-header">
-                  <span>React</span>
-                  <span>80%</span>
-                </div>
-                <div className="progress">
-                  <div className={`progress-bar ${visible ? "js" : ""}`}></div>
-                </div>
-              </div>
-
-
-              <div className="skill">
-                <div className="skill-header">
-                  <span>Python</span>
-                  <span>83%</span>
-                </div>
-                <div className="progress">
-                  <div className={`progress-bar ${visible ? "js" : ""}`}></div>
-                </div>
-              </div>
-            </div>
-
-          </div> */}
+            
 
 
 
@@ -234,7 +158,7 @@ function About() {
                 <span>80%</span>
               </div>
               <div className="progress">
-                <div className={`progress-bar ${visible ? "js" : ""}`}></div>
+                <div className={`progress-bar ${visible ? "react" : ""}`}></div>
               </div>
             </div>
 
@@ -245,7 +169,20 @@ function About() {
                 <span>83%</span>
               </div>
               <div className="progress">
-                <div className={`progress-bar ${visible ? "js" : ""}`}></div>
+                <div className={`progress-bar ${visible ? "python" : ""}`}></div>
+              </div>
+            </div>
+
+
+
+
+            <div className="skill">
+              <div className="skill-header">
+                <span>Django</span>
+                <span>80%</span>
+              </div>
+              <div className="progress">
+                <div className={`progress-bar ${visible ? "django" : ""}`}></div>
               </div>
             </div>
           </div>
