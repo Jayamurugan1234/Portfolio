@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import "./About.css";
 import { useNavigate } from "react-router-dom";
 
-
 function About() {
   const navigate = useNavigate();
 
