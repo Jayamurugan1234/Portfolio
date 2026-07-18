@@ -2,10 +2,11 @@ import "./Projects.css";
 import { FaGithub } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 import { useNavigate } from "react-router-dom";
-
+import { useEffect, useRef } from "react";
 
 function Projects() {
   const navigate = useNavigate();
+  const cardRefs = useRef([]);
 
   const projectData = [
     {
@@ -36,8 +37,7 @@ function Projects() {
       code: "https://github.com/Jayamurugan1234/Programming-Quizz",
       live: "https://programming-quizzzz.netlify.app/"
     },
-
-     {
+    {
       title: "Weather API",
       desc: "This is a responsive Weather Dashboard application built using React and OpenWeather API. It allows users to search for any city and view real-time weather information in a simple and interactive interface. The app displays key weather details such as temperature, weather condition, humidity, and wind speed.",
       img: "/weather_1.png",
@@ -45,6 +45,28 @@ function Projects() {
       live: "https://smart-weather-dashboard-rouge.vercel.app"
     }
   ];
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("reveal-visible");
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+
+    cardRefs.current.forEach((el) => el && observer.observe(el));
+    return () => observer.disconnect();
+  }, []);
+
+  const addCardRef = (el) => {
+    if (el && !cardRefs.current.includes(el)) {
+      cardRefs.current.push(el);
+    }
+  };
 
   return (
     <div className="projects">
@@ -57,32 +79,35 @@ function Projects() {
 
       <div className="projects-grid">
         {projectData.map((project, index) => (
-          <div className="project-card" key={index}>
-
-            <img src={project.img} alt={project.title} />
+          <div
+            className="project-card reveal-item"
+            key={index}
+            ref={addCardRef}
+            style={{ transitionDelay: `${(index % 3) * 0.08}s` }}
+          >
+            <div className="project-img-wrap">
+              <img src={project.img} alt={project.title} />
+              <div className="project-img-overlay"></div>
+            </div>
 
             <div className="card-content">
               <h2>{project.title}</h2>
               <p>{project.desc}</p>
 
               <div className="card-buttons">
-
                 <a href={project.code} target="_blank" rel="noreferrer">
                   <FaGithub /> Code
                 </a>
-
                 <a href={project.live} target="_blank" rel="noreferrer">
                   <SiNetlify /> Live
                 </a>
-
               </div>
             </div>
-
           </div>
         ))}
       </div>
 
-<button className="top-btn" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+      <button className="projects-top-btn" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
         Back to top
       </button>
     </div>

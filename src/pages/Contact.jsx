@@ -1,5 +1,5 @@
 import "./Contact.css";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import emailjs from "emailjs-com";
 
 function Contact() {
@@ -9,6 +9,29 @@ function Contact() {
     email: "",
     message: ""
   });
+  const [loading, setLoading] = useState(false);
+  const revealRefs = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("reveal-visible");
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+    revealRefs.current.forEach((el) => el && observer.observe(el));
+    return () => observer.disconnect();
+  }, []);
+
+  const addRevealRef = (el) => {
+    if (el && !revealRefs.current.includes(el)) {
+      revealRefs.current.push(el);
+    }
+  };
 
   const handleChange = (e) => {
     setFormData({
@@ -17,10 +40,9 @@ function Contact() {
     });
   };
 
-
-
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     try {
       const res = await fetch(
@@ -62,6 +84,8 @@ function Contact() {
     } catch (error) {
       console.log("FULL ERROR:", error);
       alert("Error: " + (error.message || "Something went wrong"));
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -71,13 +95,12 @@ function Contact() {
 
       <div className="contact-container">
 
-
-        <div className="contact-info">
+        <div className="contact-info reveal-item" ref={addRevealRef}>
           <h3>Call Us:</h3>
           <p>9360959559 (India +91)</p>
 
           <h3>Email Us:</h3>
-          <p>jayamuruganvenkatachalam27@gmail.com</p>
+          <p className="contact-info-email">jayamuruganvenkatachalam27@gmail.com</p>
 
           <h3>Address:</h3>
           <p>India, Tamilnadu, Erode</p>
@@ -88,8 +111,7 @@ function Contact() {
           ></iframe>
         </div>
 
-
-        <div className="contact-form">
+        <div className="contact-form reveal-item" ref={addRevealRef}>
           <form onSubmit={handleSubmit}>
 
             <label>Name:</label>
@@ -131,7 +153,9 @@ function Contact() {
               required
             ></textarea>
 
-            <button type="submit">Submit</button>
+            <button type="submit" className="contact-submit-btn" disabled={loading}>
+              {loading ? <span className="contact-spinner"></span> : "Submit"}
+            </button>
 
           </form>
         </div>
