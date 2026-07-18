@@ -1,17 +1,32 @@
 .footer {
+  position: relative;
   width: 100%;
   background-color: #bfbfbf;
   text-align: center;
-  padding: 10px ;
-  position: relative;
+  padding: 30px 10px 20px;
 }
 
+.footer-wave {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  display: block;
+}
 
 .footer h2 {
   margin-bottom: 15px;
   font-weight: bold;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+.footer.footer-visible h2 {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .footer-icons {
   display: flex;
@@ -23,10 +38,29 @@
   font-size: 22px;
   color: black;
   transition: 0.3s;
+  opacity: 0;
+  transform: translateY(12px);
 }
+
+.footer.footer-visible .footer-icons a {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.footer.footer-visible .footer-icons a:nth-child(1) { transition: opacity 0.5s ease 0.1s, transform 0.5s ease 0.1s, color 0.3s, transform 0.3s; }
+.footer.footer-visible .footer-icons a:nth-child(2) { transition: opacity 0.5s ease 0.2s, transform 0.5s ease 0.2s, color 0.3s, transform 0.3s; }
+.footer.footer-visible .footer-icons a:nth-child(3) { transition: opacity 0.5s ease 0.3s, transform 0.5s ease 0.3s, color 0.3s, transform 0.3s; }
 
 .footer-icons a:hover {
   color: #2ecc71;
   transform: scale(1.2);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .footer h2,
+  .footer-icons a {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
