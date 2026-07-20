@@ -9,6 +9,28 @@ function Projects() {
   const cardRefs = useRef([]);
 
   const projectData = [
+
+    {
+      title: "Sellora",
+      desc: "Sellora is a full-stack multi-vendor accessories e-commerce platform using Django REST Framework and React  with JWT authentication and role-based access (Customer, Owner, Admin). Built product management, shopping cart, fake payment, and order tracking features stores in PostgreSQL. Integrated Celery, Redis, and Gmail SMTP for automated cart reminders and transactional emails, with a fully responsive custom UI.",
+      img: "/sellora.png",
+      code: "https://github.com/Jayamurugan1234/Selloraa",
+      backendCode: "https://github.com/Jayamurugan1234/Sellora-backend",
+      live: "https://vercel.com/jayamurugan1234s-projects/selloraa"
+    },
+
+
+    {
+      title: "Musify",
+      desc: "Musify a full-stack Spotify-inspired music streaming platform using Django, React, JWT, and PostgreSQL with role-based access for Users, Artists, and Admins. Built a music player featuring play/pause, next/previous, shuffle, repeat, and real-time progress controls. Implemented playlists, liked songs, and a personal library, while Artists manage tracks and Admins oversee content and users. Designed a responsive Spotify-style UI with seamless navigation and secure JWT-based authentication.",
+      img: "/musify.png",
+      code: "https://github.com/Jayamurugan1234/Musify",
+      backendCode: "https://github.com/Jayamurugan1234/Musify-backend",
+      live: "https://vercel.com/jayamurugan1234s-projects/musify"
+    },
+
+
+
     {
       title: "Dressora",
       desc: "Dressora is a responsive clothing website that offers a seamless shopping experience with modern UI, smooth navigation, product listings, image galleries, and interactive features across all devices.",
@@ -98,6 +120,16 @@ function Projects() {
                 <a href={project.code} target="_blank" rel="noreferrer">
                   <FaGithub /> Code
                 </a>
+
+
+
+                {project.backendCode && (
+                  <a href={project.backendCode} target="_blank" rel="noreferrer">
+                    <FaGithub /> Backend
+                  </a>
+                )}
+
+
                 <a href={project.live} target="_blank" rel="noreferrer">
                   <SiNetlify /> Live
                 </a>
