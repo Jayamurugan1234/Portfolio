@@ -16,7 +16,7 @@ function Projects() {
       img: "/sellora.png",
       code: "https://github.com/Jayamurugan1234/Selloraa",
       backendCode: "https://github.com/Jayamurugan1234/Sellora-backend",
-      live: "https://vercel.com/jayamurugan1234s-projects/selloraa"
+      live: "https://selloraa.vercel.app/"
     },
 
 
@@ -26,7 +26,7 @@ function Projects() {
       img: "/musify.png",
       code: "https://github.com/Jayamurugan1234/Musify",
       backendCode: "https://github.com/Jayamurugan1234/Musify-backend",
-      live: "https://vercel.com/jayamurugan1234s-projects/musify"
+      live: "https://musify-lyart-ten.vercel.app/"
     },
 
 
